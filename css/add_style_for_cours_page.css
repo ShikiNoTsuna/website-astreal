@@ -1,0 +1,134 @@
+/**
+Feuille de style adressée à la page de cours d'Astreal
+**/
+
+/** HEADER **/
+#header_main_paging_cours {
+      width: 100%;
+      height: 100vh;
+      background: url("../img/conf_b&w_anc_archi_for_site_cours.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      display: table;
+}
+
+.content_cours {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.content_cours h1 {
+      color: #282828;
+      font-family: 'Saira', sans-serif;
+      font-weight: 400;
+      font-size: 50px;
+}
+/** HEADER **/
+
+/** Les sections de la page cours **/
+#pres_site_cours {
+      margin-top: 4em;
+      background-color: #cecece;
+      color: #282828;
+}
+
+#pres_site_cours h2 {
+      font-size: 32px;
+      text-align: center;
+      text-transform: uppercase;
+}
+
+#pres_site_cours p {
+      font-size: 22px;
+      text-align: center;
+      margin-top: 2em;
+}
+
+#pres_site_cours strong {
+}
+
+#pres_site_cours2 {
+      margin-top: 5em;
+}
+
+#pres_site_cours2 h2 {
+      font-size: 32px;
+      text-align: center;
+      text-transform: uppercase;
+}
+
+#pres_site_cours2 .title_three_cours {
+      font-size: 26px;
+      text-align: center;
+      margin-top: 2em;
+      color: #ff9195;
+}
+
+#pres_site_cours2 p {
+      font-size: 22px;
+      text-align: center;
+      margin-top: 2em;
+      margin-bottom: 2em;
+}
+
+#pres_site_cours2 ul li {
+      font-size: 22px;
+      text-align: center;
+      list-style: none;
+}
+
+#pres_site_cours2 ul li a {
+      text-decoration: none;
+      color: #8fd6e8;
+}
+
+#pres_site_cours2 ul li a:hover {
+      color: #ff9195;
+}
+
+
+/** Style on material icon **/
+/*.material-icons {
+      font-size: 69px;
+      color: red;
+      border: 2px solid #fff;
+      background: #fff;
+}*/
+
+.material-icons {
+      vertical-align: sub;
+      font-size: 29px;
+}
+
+.arrow_material {
+      font-size: 3em;
+      float: right;
+      color: #CE4A50;
+}
+/** Style on material icon **/
+/** Les sections de la page cours **/
+
+/* Section réservée au navbvar des liens utiles */
+#navbar_utils_links h2 {
+      text-align: center;
+      margin-top: 5rem;
+      text-transform: uppercase;
+}
+
+#navbar_utils_links nav {
+      height: auto;
+}
+
+/** RESPONSIVE **/
+@media(max-width: 768px) {
+      #pres_site_cours2 {
+            margin-left: 1rem;
+            margin-right: 1rem;
+      }
+      .arrow_material {
+            font-size: 2em;
+            float: right;
+            color: #CE4A50;
+      }
+}
